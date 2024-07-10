@@ -2,3 +2,4 @@
 .ipython
 .jupter
 .local
+*.db
