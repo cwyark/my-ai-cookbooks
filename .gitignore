@@ -3,3 +3,4 @@
 .jupter
 .local
 *.db
+__pycache__
