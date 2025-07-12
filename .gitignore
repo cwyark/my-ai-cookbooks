@@ -5,3 +5,4 @@
 *.db
 __pycache__
 .vscode
+src/my_ai_cookbooks.egg-info

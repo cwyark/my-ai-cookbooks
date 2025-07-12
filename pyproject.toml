@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-ai-cookbooks"
+version = "0.1.0"
+description = "Collection of AI/ML code recipes and notebooks"
+authors = [{ name = "YuSheng", email = "cwyark@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+# Runtime dependencies
+dependencies = ["torch", "tensorboard"]
+
+[project.urls]
+"Repository" = "https://github.com/cwyark/my-ai-cookbooks"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
