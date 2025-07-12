@@ -12,7 +12,14 @@ requires-python = ">=3.8"
 license = { text = "MIT" }
 
 # Runtime dependencies
-dependencies = ["torch", "tensorboard"]
+dependencies = [
+  "torch",
+  "jupyterlab",
+  "matplotlib",
+  "pandas",
+  "seaborn",
+  "scikit-learn",
+]
 
 [project.urls]
 "Repository" = "https://github.com/cwyark/my-ai-cookbooks"
