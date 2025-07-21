@@ -14,6 +14,7 @@ license = { text = "MIT" }
 # Runtime dependencies
 dependencies = [
   "torch",
+  "torchvision",
   "jupyterlab",
   "matplotlib",
   "pandas",
