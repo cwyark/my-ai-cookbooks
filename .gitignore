@@ -8,3 +8,4 @@ __pycache__
 src/my_ai_cookbooks.egg-info
 .ipynb_checkpoints
 data
+runs
